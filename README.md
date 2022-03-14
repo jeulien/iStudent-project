@@ -1,5 +1,6 @@
 # iStudent-project
 A student management system for college students in Dominican College San Juan. Made in Visual Studio using VB .NET
+
 iStudent administration panel has the following features:
 
 •Encoding of Student Profile. 
