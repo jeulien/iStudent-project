@@ -3,11 +3,6 @@ Imports System.IO
 
 Public Class Dashboard
 
-
-    'Dim con As New SqlConnection("Data Source=DESKTOP-64RJ8U5;Initial Catalog=iStudentDB;Integrated Security=True")
-    Dim con As New SqlConnection("Data Source=SQL5107.site4now.net;Initial Catalog=db_a83e48_istudentdb;User Id=db_a83e48_istudentdb_admin;Password=lula0224")
-
-    'ADD PROFANITY FILTER TO THE POSTS 
     Private Sub Dashboard_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         FilterData("")
 
