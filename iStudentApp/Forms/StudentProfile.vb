@@ -1,11 +1,7 @@
 ﻿Imports System.Data.SqlClient
 Imports System.IO
 Public Class StudentProfile
-
-    'Dim con As New SqlConnection("Data Source=DESKTOP-64RJ8U5;Initial Catalog=iStudentDB;Integrated Security=True")
-    Dim con As New SqlConnection("Data Source=SQL5107.site4now.net;Initial Catalog=db_a83e48_istudentdb;User Id=db_a83e48_istudentdb_admin;Password=lula0224")
-
-    'COLOR PANEL CHANGES 
+    
     Private Sub txtLastNm_Enter(sender As Object, e As EventArgs) Handles txtLastNm.Enter
         panelLastNm.BackColor = Color.FromArgb(41, 128, 185)
     End Sub
