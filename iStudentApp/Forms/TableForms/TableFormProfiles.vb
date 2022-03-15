@@ -3,8 +3,7 @@ Imports System.IO
 Imports iTextSharp.text
 Imports iTextSharp.text.pdf
 Public Class TableFormProfiles
-    'Dim con As New SqlConnection("Data Source=DESKTOP-64RJ8U5;Initial Catalog=iStudentDB;Integrated Security=True;MultipleActiveResultSets=true")
-    Dim con As New SqlConnection("Data Source=SQL5107.site4now.net;Initial Catalog=db_a83e48_istudentdb;User Id=db_a83e48_istudentdb_admin;Password=lula0224;MultipleActiveResultSets=true")
+   
     Private Sub TableFormProfiles_Load(sender As Object, e As EventArgs) Handles MyBase.Load
         FilterData("")
 
